@@ -4,8 +4,8 @@ import userEvent from '@testing-library/user-event';
 
 import MainContent from './MainContent';
 
-//this is a comment to check if the workflow skipped
-
+//this is a comment to check if the workflow skipped with [skip ci]
+// this comment to check if the workflow skipped with [ci skip]
 describe('MainContent', () => {
   it('should render a button', () => {
     render(<MainContent />);
